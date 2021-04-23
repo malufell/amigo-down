@@ -40,8 +40,10 @@ async function buildAndReload() {
 async function includeHTML(){
   return gulp.src([
     '*.html',
+    '!head.html', // ignore
     '!header.html', // ignore
-    '!footer.html' // ignore
+    '!footer.html', // ignore
+    '!script.html' // ignore
     ])
     .pipe(fileinclude({
       prefix: '@@',
