@@ -7,17 +7,17 @@ sass.compiler = require('node-sass');
 const ghPages = require('gulp-gh-pages');
 
 gulp.task('deploy', function() {
-    return gulp.src('./build/**/*')
+    return gulp.src('./docs/**/*')
         .pipe(ghPages({
             remoteUrl: 'https://github.com/malufell/amigo-down',
-            branch: 'master'
+            branch: 'gh-pages'
         }));
 });
 
 const paths = {
     scripts: {
         src: './',
-        dest: './build/'
+        dest: './docs/'
     }
 };
 

@@ -1,13 +1,6 @@
-html {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-}
-
 body {
-    min-height: 100%;
     max-width: 130rem;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
@@ -65,12 +58,4 @@ img {
 
 .texto {
     text-align: justify !important;
-}
-
-footer {
-    min-height: 50px;
-}
-
-.wrap {
-    flex: 1;
 }
