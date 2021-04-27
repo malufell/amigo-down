@@ -3,13 +3,13 @@
 
 <head>
     @@include('partials/head.html')
-    <title>Amigo Down - Como ajudar</title>
+    <title>Amigo Down - Contato</title>
 </head>
 
 <body>
     @@include('partials/header.html')
 
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
         <div class="row align-items-center g-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
                 <h1 class="display-4 fw-bold lh-1 mb-3">Entre em contato</h1>
@@ -41,18 +41,18 @@
             <div class="col-12 mx-auto col-lg-5">
                 <form action="https://formspree.io/f/xnqljagg" method="POST" class="p-5 border rounded-3" style="background-color: #63CAD8">
                     <div class="form-floating mb-3">
-                        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        <input type="email" name="email" class="form-control form-contato" id="email" placeholder="name@example.com" required>
                         <label for="email">Email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="phone" name="telefone" class="form-control" id="telefone" placeholder="name@example.com" required>
+                        <input type="phone" name="telefone" class="form-control form-contato" id="telefone" placeholder="name@example.com" required>
                         <label for="telefone">Telefone</label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" name="mensagem" placeholder="Leave a comment here" id="mensagem" style="height: 100px" required></textarea>
+                        <textarea class="form-control form-contato" name="mensagem" placeholder="Leave a comment here" id="mensagem" style="height: 100px" required></textarea>
                         <label for="mensagem">Mensagem</label>
                     </div>
-                    <button class="w-100 btn btn-lg fw-bold mt-3" style="background-color: #FFE135" type="submit">Enviar</button>
+                    <button class="w-100 btn btn-lg fw-bold mt-3" style="background-color: #ffc107" type="submit">Enviar</button>
                 </form>
             </div>
         </div>
