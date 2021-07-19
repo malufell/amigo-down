@@ -15,11 +15,11 @@ h4 {
 }
 
 a,
-li {
+.link-menu {
     color: black !important;
 }
 
-li:after {
+.link-menu:after {
     display: block;
     width: 0;
     height: 3px;
@@ -28,11 +28,11 @@ li:after {
     background-color: #ffe135;
 }
 
-li:hover {
+.link-menu:hover {
     font-weight: bold;
 }
 
-li:hover:after {
+.link-menu:hover:after {
     width: 100%;
 }
 
@@ -46,8 +46,6 @@ img {
 
 .card-eventos {
     width: 18rem;
-    /* height: auto; */
-    /* max-height: 22rem; */
 }
 
 .card-img {
@@ -56,6 +54,17 @@ img {
     object-fit: cover !important;
 }
 
+.card-associados {
+    width: 12rem;
+    height: 200px;
+    align-items: top;
+    margin: 0.4%;
+}
+
+.card-associados:hover, .card-eventos:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
 .borda-colorida {
     background: linear-gradient(to right, #ffe135, #D82E3F, #63CAD8);
     padding-top: 2px;

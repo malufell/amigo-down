@@ -54,6 +54,55 @@
             </div>
         </div>
     </div>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
+        <div class="row align-items-center g-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Entre em contato</h1>
+                <p class="col-lg-10 fs-4">Você pode enviar mensagens através do formulário, ou dos nossos contatos!</p>
+
+                <div class="d-flex align-items-start fs-5">
+                    <a class="text-decoration-none text-dark" href="https://api.whatsapp.com/send/?phone=554891704881&text&app_absent=0"><i class="bi bi-whatsapp pe-2" style="font-size: 1.50rem"></i>
+                    <span class="p-1">+55 (48) 99170-4881</span></a>
+                </div>
+
+                <div class="d-flex align-items-start fs-5">
+                    <a class="text-decoration-none text-dark" href="mailto:amigodownsc1991@gmail.com"><i class="bi bi-envelope pe-2" style="font-size: 1.50rem"></i>
+                    <span class="p-1">amigodownsc1991@gmail.com</span></a>
+                </div>
+
+                <div class="d-flex align-items-start">
+                    <a class="text-decoration-none text-dark" href="https://www.instagram.com/amigodown/"><i class="bi bi-instagram pe-2"
+                        style="font-size: 1.50rem"></i> 
+                        <span class="p-1 fs-5">@amigodown
+                      </a></span>
+                </div>
+                <div class="d-flex align-items-start">
+                    <a class="text-decoration-none text-dark" href="https://www.facebook.com/amigodownsc"><i class="bi bi-facebook pe-2"
+                        style="font-size: 1.50rem"></i>
+                        <span class="p-1 fs-5">@amigodownsc</span>
+                      </a>
+                </div>
+            </div>
+            <div class="col-12 mx-auto col-lg-5">
+                <form action="https://formspree.io/f/xnqljagg" method="POST" class="p-5 border rounded-3" style="background-color: #63CAD8">
+                    <div class="form-floating mb-3">
+                        <input type="email" name="email" class="form-control form-contato" id="email" placeholder="name@example.com" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="phone" name="telefone" class="form-control form-contato" id="telefone" placeholder="name@example.com" required>
+                        <label for="telefone">Telefone</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control form-contato" name="mensagem" placeholder="Leave a comment here" id="mensagem" style="height: 100px" required></textarea>
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+                    <button class="w-100 btn btn-lg fw-bold mt-3" style="background-color: #ffc107" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
     @@include('partials/footer.html') @@include('partials/script.html')
 
 </body>
