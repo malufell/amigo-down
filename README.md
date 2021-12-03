@@ -1,5 +1,7 @@
 # Site Amigo Down
 
+http://www.amigodown.org/
+
 ## Como contribuir
 
 - Faça o clone do projeto `git clone git@github.com:malufell/amigo-down.git`

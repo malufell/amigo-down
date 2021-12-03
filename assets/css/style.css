@@ -19,6 +19,10 @@ a,
     color: black !important;
 }
 
+p { 
+   text-indent: 30px;
+}
+
 .link-menu:after {
     display: block;
     width: 0;
@@ -48,10 +52,25 @@ img {
     width: 18rem;
 }
 
+.card-minicasa {
+    width: 22rem;
+    height: 18rem;
+    object-fit: cover !important;
+}
+
 .card-img {
     width: 100%;
     height: 100%;
     object-fit: cover !important;
+}
+
+.img-zumba {
+    width: 20rem;
+    height: 25rem;
+}
+
+.aula-zumba {
+    width: 40rem;
 }
 
 .card-associados {
