@@ -22,4 +22,4 @@ O site é atualizado com base na branch `gh-pages` e nos arquivos da pasta `/doc
 - realizar o `push` das alterações na branch `gh-pages`
 - é possível acompanhar o build na aba "Actions" do repositório:
 ![image](https://user-images.githubusercontent.com/62160705/199354759-381e39ee-e9ce-4a29-ae6a-3fdcf70ee8b1.png)
-- após rodar o build, as alterações já devem estar refletindo em http://www.amigodown.org/atividades
+- após rodar o build, as alterações já devem estar refletindo em http://www.amigodown.org
